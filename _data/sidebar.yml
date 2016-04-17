@@ -1,0 +1,64 @@
+title: Documentation
+entries:
+  - title: Home
+    url: index.html
+  - title: Command line execution
+    url: Command-Line.html
+  - title: Input
+    url: Input.html
+    entries:
+    - title: Java input
+      url: Input-Java.html
+      entries:
+      - title: Overview
+        url: Input-Java-Overview.html
+      - title: Lexer section
+        url: Input-Java-Lexer.html
+      - title: Parser section
+        url: Input-Java-Parser.html
+    - title: XML input
+      url: Input-XML.html
+      entries:
+      - title: Lexer section
+        url: Input-XML-Lexer.html
+      - title: Parser section
+        url: Input-XML-Parser.html
+    - title: Yacc input
+      url: Input-Yacc.html
+  - title: Lexer
+    url: Lexer.html
+    entries:
+    - title: Patterns
+      url: Lexer-Patterns.html
+      entries:
+      - title: ASCII map
+        external_url: http://www.manpagez.com/man/7/ascii/
+      - title: Unicode map
+        external_url: http://www.unicodemap.org/
+    - title: Compiler warnings
+      url: Lexer-Warnings.html
+  - title: Parser
+    url: Parser.html
+    entries:
+    - title: Error recovery
+      url: Parser-Error-Recovery.html
+  - title: Target languages
+    entries:
+    - title: Java
+      url: Target-Language-Java.html
+    - title: Plain
+      url: Target-Language-Plain.html
+    - title: XML
+      url: Target-Language-XML.html
+    - title: Yacc
+      url: Target-Language-Yacc.html
+  - title: Ant task
+    url: Ant-Task.html
+  - title: Troubleshooting
+    url: Troubleshooting.html
+  - title: Test cases
+    external_url: https://github.com/coconut2015/cookcc/tree/master/tests
+  - title: LICENSE
+    url: LICENSE.html
+  - title: Internal
+    url: Internal.html
