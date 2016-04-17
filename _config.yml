@@ -2,7 +2,7 @@ permalink: none
 # this sets the style for permalinks. The date formatting (/:year/:month/:day/) will only apply to blog posts, while the pages will just show the title.
 url: http://coconut2015.github.io
 # where you plan to publish your site
-baseurl: "file:///D:/projects/workspace/cookcc_wiki/cookcc/_site/"
+baseurl: "/cookcc/"
 # any subdirectory that appears after the domain where you're publishing your site
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
