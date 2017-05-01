@@ -14,10 +14,6 @@ Other Features
 * CookCC can produce highly compressed DFA tables for both the lexer and parser, using the similar compression algorithm found in [Flex](http://flex.sourceforge.net/).
 * For the lexer, DFA states constructed were minimal. In contrast, Flex does not construct minimal DFA states.
 
-CookCC requires JRE 1.7+ to run, but the generated Java code can be compiled and run with earlier versions of Java. There are **zero dependencies** for the generated Java code. So it is light and fast.
+The current release is 0.4 which requires 1.7+ to run, mainly due to the annotation processing API.  The generated Java code can be compiled and run with earlier versions of Java. There are **zero dependencies** for the generated Java code unless you use extended grammar. So it is light and fast.
 
 Note: the BSD license of the project only applies to CookCC itself. The code generated belongs to you.
-
-The current release is 0.3.3 which requires 1.5+ to run.
-
-0.4 has a number of features already implemented and tested.  It requires JDK 1.7+ mainly due to the annotation processing API.  I still have a few things to add before I feel it is a "complete* release.
